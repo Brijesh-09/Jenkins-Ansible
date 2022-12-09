@@ -7,4 +7,4 @@
     - name: remove docker image
       shell: docker image rm brijeshkori/docker-job                            #name of images (docker images)
     - name: create new container
-      shell: docker container run -itd --name rockstar-container -p 9000:80 brijeshkori/docker-job     #(docker-job>> name of jenkins job)
+      shell: docker container run -itd --name rockstar-container -p 9000:80 brijeshkori/docker-job     #(docker-job>> name of jenkins job)  
